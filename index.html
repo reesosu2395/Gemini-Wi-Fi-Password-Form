@@ -13,6 +13,19 @@
         input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
         button { width: 100%; padding: 12px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
         button:hover { background-color: #0056b3; }
+        .header-image {
+            display: block;
+            margin: 0 auto 35px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            /* Placeholder style in case image isn't found */
+            min-height: 100px;
+            background-color: #eee;
+            color: #777;
+            line-height: 100px;
+            text-align: center;
+        }
         #status { margin-top: 15px; text-align: center; font-weight: bold; }
     </style>
 </head>
@@ -20,7 +33,7 @@
 
 <div class="form-card">
     <h2>Gemini Wi-Fi Password Form</h2>
-    
+    <img src="assests/geminilogo.png" alt="[Insert Your Image]" class="header-image">
     <div class="input-group">
         <label>Name of Employee</label>
         <input type="text" id="name" required>
@@ -75,3 +88,4 @@
 
 </body>
 </html>
+
